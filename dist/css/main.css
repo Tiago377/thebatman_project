@@ -1,0 +1,152 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.header__logo {
+  padding: 0 20px;
+  width: 160px;
+}
+@media (max-width: 668px) {
+  .header__logo {
+    width: 120px;
+  }
+}
+.header__links__item {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 10px;
+}
+@media (max-width: 668px) {
+  .header__links__item {
+    font-size: 12px;
+  }
+}
+.header__links__item a {
+  background-color: #e74c3c;
+  padding: 10px 18px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.5s;
+}
+@media (max-width: 668px) {
+  .header__links__item a {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    font-size: 12px;
+    height: 30px;
+  }
+}
+.header__links__item a:hover {
+  background-color: #c0392b;
+}
+
+.hero h2 {
+  text-align: center;
+  padding-top: 5rem;
+  text-transform: uppercase;
+}
+@media (max-width: 668px) {
+  .hero h2 {
+    margin-bottom: 1rem;
+  }
+}
+.hero p {
+  padding: 20px;
+  margin: 0 auto;
+  line-height: 2rem;
+  width: 900px;
+}
+@media (max-width: 668px) {
+  .hero p {
+    width: 375px;
+    padding: 0 8px;
+    text-align: center;
+  }
+}
+.hero__banner {
+  width: 100%;
+}
+
+.show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  margin-top: 7rem;
+}
+.show h2 {
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+.show__elenco {
+  width: 580px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+@media (max-width: 668px) {
+  .show__elenco {
+    max-width: 380px;
+    width: 100%;
+    padding: 0 14px;
+  }
+}
+.show h3 {
+  margin-top: 2rem;
+}
+.show p {
+  width: 100%;
+  line-height: 30px;
+  padding: 0;
+  margin-top: 1rem;
+}
+@media (max-width: 668px) {
+  .show p {
+    padding: 0 10px;
+  }
+}
+.show img {
+  margin-top: 1rem;
+  width: 100%;
+  height: auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #040714;
+}
+
+.text {
+  font-size: 18px;
+  color: #ecf0f1;
+}
+
+.text--small {
+  font-size: 12px;
+  color: #ecf0f1;
+}
+
+.title {
+  font-size: 28px;
+  color: #ecf0f1;
+  color: #ecf0f1;
+}
+
+.footer {
+  padding-top: 6.8vw;
+}
+.footer__container {
+  text-align: center;
+  margin-bottom: 1rem;
+}
